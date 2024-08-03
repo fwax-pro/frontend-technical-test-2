@@ -19,6 +19,7 @@ npm run test
 # Features
 - Create a componennt from Figma 
 - Add test
+- Using cva
 
 # Explains
 - The Chip component could be a separate component, if it is reused.
