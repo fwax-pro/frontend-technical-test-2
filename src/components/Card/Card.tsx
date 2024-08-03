@@ -6,7 +6,7 @@ export interface CardProps {
 
 export const Card: React.FC<CardProps> = ({children}):ReactElement => {
     return (
-        <a className="bg-primary" href="#">
+        <a tabIndex={0} className="bg-primary" href="#">
             {children}
         </a>
     )

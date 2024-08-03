@@ -9,6 +9,6 @@ export interface DescriptionProps extends CardDescriptionStylesProps {
 export const Description = ({
     className,
     intent,
-    children}:DescriptionProps):ReactElement => <div className={cardDescriptionStyles({intent, className})}>{children}</div>
+    children}:DescriptionProps):ReactElement => <div tabIndex={1} className={cardDescriptionStyles({intent, className})}>{children}</div>
 
 Description.displayName = 'Card.HighlightText'

@@ -13,7 +13,7 @@ export const Media = ({src, alt, component = 'img'}:MediaProps) => {
     }
 
     return (
-        <div className="w-88 h-52">
+        <div tabIndex={1} className="w-88 h-52">
             {componentRender}
         </div>
     )

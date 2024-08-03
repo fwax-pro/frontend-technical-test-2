@@ -9,6 +9,6 @@ export interface ChipProps extends CardChipStylesProps {
 export const Chip = ({ 
     className,
     intent, 
-    children}:ChipProps):ReactElement => <div className={cardChipStyles({intent, className})}>{children} </div>
+    children}:ChipProps):ReactElement => <div tabIndex={1} className={cardChipStyles({intent, className})}>{children} </div>
 
 Chip.displayName = 'Card.Chip'
